@@ -4,6 +4,12 @@ const jwt = require('jsonwebtoken');
 const db = require('../config/db');
 const router = express.Router();
 
+
+//test
+
+router.get('/',(req,res)=>{
+  return res.json({"status":"hello"})
+})
 // Register
 router.post('/register', (req, res) => {
   const { username, email, password } = req.body;
