@@ -7,5 +7,8 @@ const PORT = 0;
 
 app.use(express.json());
 app.use('/api/auth', authRoutes);
+app.get("/",(req,res)=>{
+    return res.json({"status":"working"})
+})
 
-app.listen(90001);
+app.listen(9001);
