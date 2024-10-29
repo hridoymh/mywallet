@@ -8,4 +8,4 @@ const PORT = 0;
 app.use(express.json());
 app.use('/api/auth', authRoutes);
 
-app.listen();
+app.listen(90001);
