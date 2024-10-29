@@ -1,0 +1,17 @@
+POST http://localhost:5000/api/auth/register HTTP/1.1
+content-type: application/json
+
+{
+    "username": "mhb",
+    "email": "mhb@gmail.com",
+    "password": "tpass"
+}
+
+###
+POST http://localhost:5000/api/auth/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "mha@gmail.com",
+    "password": "tpass"
+}
