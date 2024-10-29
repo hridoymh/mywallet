@@ -8,7 +8,7 @@ const router = express.Router();
 //test
 
 router.get('/',(req,res)=>{
-  return res.json({"status":"hello"})
+  return res.json({"status":"hello test 2"})
 })
 // Register
 router.post('/register', (req, res) => {
